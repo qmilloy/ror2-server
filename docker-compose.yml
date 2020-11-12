@@ -1,6 +1,7 @@
 version: "3.8"
 services:
   ror2-server:
+    image: avivace/ror2server:latest
     ports:
       - "27015:27015/udp"
       - "27016:27016/udp"
