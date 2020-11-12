@@ -7,7 +7,7 @@ services:
       - "27016:27016/udp"
     environment:
       - R2_PLAYERS=5
-      - R2_PSW='qserver'
-      - R2_HOSTNAME='QRoR2 5-man'
+      - R2_PSW=qserver
+      - R2_HOSTNAME=QRoR2
       - R2_HEARTBEAT=1
-      - R2_TAGS='theStig'
+      - R2_TAGS=theStig
